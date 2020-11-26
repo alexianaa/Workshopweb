@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(240, 223, 178);
+}
+
+.nome{
+    padding: 40px;
+}
+
+.divmaior {
+    display: flex;
+    background-color: rgb(226, 185, 123);
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.espac {
+    margin: 20px;
+    text-align: justify;
+    display: flex
+}
+
+.divmenor{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
