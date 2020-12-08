@@ -1,1 +1,1 @@
-document.getElementsByClassName('paragrafo').item(0).innerHTML = "Tag nova"
+document.getElementsByClassName('paragrafo').item(0).innerHTML = "um paragrafo"

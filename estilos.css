@@ -1,9 +1,17 @@
 body {
-    background-color: rgb(240, 223, 178);
+    background-color: rgb(236, 221, 175);
+    margin: 80px;
 }
 
 .nome{
     padding: 40px;
+}
+
+.divdosespacos{
+  background-color: rgb(192, 154, 107); 
+  margin-bottom: 50px; 
+  margin-top: 20px; padding: 
+  20px;
 }
 
 .divmaior {
@@ -13,14 +21,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.espac {
-    margin: 20px;
-    text-align: justify;
-    display: flex
-}
 
 .divmenor{
     text-decoration: underline;
     margin-bottom: 20px;
 }
-

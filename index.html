@@ -3,24 +3,28 @@
     <head>
         <title>Receita de pipoca doce</title>
 
-        <link rel="stylesheet"/>
+        <link rel="stylesheet" href="./estilos.css"/>
     </head>
 
-    <body style="margin: 80px;">
-        <div style=" background-color: rgb(192, 154, 107); margin-bottom: 50px; margin-top: 20px; padding: 20px;">
+    <body >
+        <div class ="divdosespacos">
         <h1 style="text-align: center;" > PIPOCA DOCE </h1>
         <div style="text-align: center;">
             <img src="https://i.pinimg.com/originals/39/58/e2/3958e25513e8089a4dc169835733c0d8.jpg" />
             <p style="border: 1px solid;">
                 <a href="https://www.tudogostoso.com.br/receita/7269-pipoca-doce.html">Você será direcionada(o) para página da receita original </a>
             </p>
+            <div style="background-color: burlywood; padding: 20px;">
+                <span style="margin: 30px;">PREPARO: 20 MIN</span> 
+                <span style="margin: 30px;"> RENDIMENTO: 1 PORÇÃO</span>
+            </div>
         </div>
         
     
    
     </div>
 
-    <div style=" background-color: rgb(192, 154, 107); margin-bottom: 50px; margin-top: 20px; padding: 20px;">
+    <div class ="divdosespacos">
         <h2> Ingredientes </h2>
 
     <div class="divmenor">
@@ -36,7 +40,7 @@
     </div>
 </div>
 
-<div style=" background-color: rgb(192, 154, 107); margin-bottom: 50px; margin-top: 20px; padding: 20px;">
+<div class ="divdosespacos">
         <h2>Passos do modo de preparo</h2>
 
     <div class="divmenor">
@@ -49,5 +53,18 @@
 
     </div>
 </div>
+
+    <footer style="text-align: center; margin-bottom: 20px;"> 
+        <div id="criado"></div>
+        <div id="nome"></div>
+    </footer>
+
+    <script>
+
+        document.getElementById('criado').innerHTML = "Criado por Alexia Naara"
+        document.getElementById('nome').innerHTML = "Acessado em: " + Date()
+    
+    </script>
+
     </body>
 </html>
